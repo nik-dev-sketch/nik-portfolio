@@ -1,0 +1,10 @@
+node_modules
+dist
+build
+coverage
+.next
+.redwood
+public
+package.json
+package-lock.json
+yarn.lock

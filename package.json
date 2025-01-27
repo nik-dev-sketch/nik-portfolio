@@ -1,15 +1,15 @@
 {
-  "name": "@nik-portfolio/root",
+  "name": "nik-portfolio",
   "private": true,
   "packageManager": "yarn@4.6.0",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "vite:dev": "yarn workspace vite-portfolio dev",
-    "vite:build": "yarn workspace vite-portfolio build",
-    "redwood:dev": "yarn workspace redwood-portfolio rw dev",
-    "redwood:build": "yarn workspace redwood-portfolio rw build",
+    "vite:dev": "cd packages/vite-portfolio && yarn dev",
+    "vite:build": "cd packages/vite-portfolio yarn build",
+    "redwood:dev": "cd packages/redwood-portfolio yarn rw dev",
+    "redwood:build": "cd packages/redwood-portfolio yarn rw build",
     "dev": "concurrently \"yarn vite:dev\" \"yarn redwood:dev\"",
     "build": "yarn workspaces run build",
     "lint": "eslint \"packages/**/*.{js,jsx,ts,tsx}\"",
