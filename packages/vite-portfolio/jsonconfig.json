@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "jsx": "react-jsx",
+      "checkJs": true,
+      "module": "ESNext",
+      "target": "ES2020",
+      "moduleResolution": "bundler",
+      "allowJs": true,
+      "esModuleInterop": true,
+      "isolatedModules": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "moduleDetection": "force",
+      "lib": ["DOM", "DOM.Iterable", "ESNext"],
+      "strict": false
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "build", "dist", ".next", "coverage"]
+  }
