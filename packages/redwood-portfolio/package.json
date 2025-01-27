@@ -1,0 +1,15 @@
+{
+  "name": "@nik-portfolio/redwood",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "api",
+      "web"
+    ],
+    "packageManager": "yarn@4.6.0"
+  },
+  "scripts": {
+    "dev": "rw dev",
+    "build": "rw build"
+  }
+}
