@@ -1,5 +1,5 @@
 {
-  "name": "@nik-portfolio/redwood",
+  "name": "redwood-portfolio",
   "private": true,
   "workspaces": {
     "packages": [
